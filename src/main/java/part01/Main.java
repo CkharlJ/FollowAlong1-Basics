@@ -12,7 +12,14 @@ package part01;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// This line defineds the name of the class.
 public class Main {
+    // The main method notifies the Java that this is the start of the program and makes it
+    public static void main(String[] args){
+        //prints the text, then prints a new line underneath, \t adds a tab before
+        System.out.println("\t\"I love pizza\"\n");
+        System.out.println("Its really good\\");
+
+    }
 
 }
