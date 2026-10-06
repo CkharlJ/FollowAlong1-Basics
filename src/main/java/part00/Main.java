@@ -8,10 +8,15 @@ package part00;
 // Your one job in this file: change YOUR NAME below to your actual name,
 // run it, and check the output matches the README.
 
+// Defines a public class named Main.
 public class Main {
+    // The main method is the starting point of the Java program.
     public static void main(String[] args) {
+        // Prints "=== Part 00 ===" to the console.
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+        // Prints "Hello I'm Ckharl" to the console.
+        System.out.println("Hello I'm Ckharl");
+        // Prints "If you can read this, your setup works." to the console.
         System.out.println("If you can read this, your setup works.");
     }
 }
