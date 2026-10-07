@@ -12,14 +12,13 @@ package part01;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-// This line defineds the name of the class.
+// This line defined the name of the class.
 public class Main {
-    // The main method notifies the Java that this is the start of the program and makes it
-    public static void main(String[] args){
-        //prints the text, then prints a new line underneath, \t adds a tab before
+    // We got the main method which is the starting point of the Java program
+    public static void main(String[] args) {
+        // This line prints out : "I love pizza ", the /t does a tab , which going to put space and we got the \n meaning "go to the next line
         System.out.println("\t\"I love pizza\"\n");
-        System.out.println("Its really good\\");
-
+        // This line prints out  It's really good with a backslah because we have a double blackslash that prints one backslash
+        System.out.println("It's really good \\");
     }
-
 }
