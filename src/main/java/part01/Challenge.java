@@ -9,5 +9,14 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
-
-}
+    public static void main(String[] arg){
+        System.out.println("       /\\");
+        System.out.println("      /  \\");
+        System.out.println("     |    |");
+        System.out.println("     | GO |");
+        System.out.println("     |____|");
+        System.out.println("      /||\\");
+        System.out.println("     /_||_\\");
+        System.out.println("\"Blast off!\" \\o/");
+            }
+        }
