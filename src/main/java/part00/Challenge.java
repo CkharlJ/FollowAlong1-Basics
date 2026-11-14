@@ -14,6 +14,6 @@ public class Challenge {
     // greeting("Jordan") should return "Hello, Jordan!"
     // greeting("Sam")    should return "Hello, Sam!"
     public static String greeting(String name) {
-        return "";   // YOUR CODE — replace "" with the right answer
+        return "Hello, "+ name + "!";   // YOUR CODE — replace "" with the right answer
     }
 }
