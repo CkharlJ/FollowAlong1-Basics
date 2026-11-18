@@ -15,5 +15,24 @@ package part03;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Swap {
+    // This is where the program starts running.
+    public static void main(String[] args) {
+        // Create a String variable x and give it "water".
+        String x = "water";
+        // Create a String variable y and give it "Kool-Aid".
+        String y = "Kool-Aid";
+        // Create a third String called
+        String temp;
+        // Save the original value of x in temp.
+        temp = x;
+        // Change x to the value stored in y.
+        x = y;
+        // Change y to the original value of x.
+        y = temp;
+        // Print the new value of x.
+        System.out.println("x: " + x);
+        // Print the new value of y.
+        System.out.println("y: " + y);
 
+    }
 }
