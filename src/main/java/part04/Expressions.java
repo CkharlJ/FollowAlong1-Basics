@@ -15,5 +15,14 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Expressions {
+    // This is the main method where the program starts.
+    public static void main(String[] args) {
+        // Create a double variable called friends and set it to 10.
+        double friends = 10;
+        // Add 3 to friends and store the new value.
+        friends = (double) friends / 3;
+        // Print the final value of friends.
+        System.out.println(friends);
 
+    }
 }
